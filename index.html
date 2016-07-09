@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<html>
 	<head>
-		<meta charset="utf-8">
+		<meta charset="utf_8">
 		<title>Form Validation</title>
 		<link rel="stylesheet" type="text/css" href="styles/normalize.css">
 		<link rel="stylesheet" type="text/css" href="styles/style.css">
@@ -10,7 +10,50 @@
 	<body>
 
 		<div class="container">
-
+			<form action="#" method="post">
+				<p>
+					<label>Your Email:
+						<input type="email" name="email" required>
+					</label>
+				</p>
+				<p>
+					<label>Confirm Email:
+						<input type="email" name="confirm_email" required>
+					</label>
+				</p>
+				<p>
+					<label>Country:
+						<select name="country">
+							<option value="the_us">The US</option>
+							<option value="china">China</option>
+							<option value="japan">Japan</option>
+						</select>
+					</label>
+				</p>
+				<p>
+					<label>Zip Code:
+						<input type="number" name="zip_code" required>
+					</label>
+				</p>
+				<p>
+					<label>Password:
+						<input type="password" name="password" required>
+					</label>
+				</p>
+				<p>
+					<label>Confirm Password:
+						<input type="password" name="confirm_password" required>
+					</label>
+				</p>
+				<p>
+					<label>
+						<input type="checkbox" name="rember_me" value="rember_me">Rember me
+					</label>
+				</p>
+				<p>
+					<input type="submit" name="submit" value="sign up">
+				</p>
+			</form>
 		</div>
 
 		<script src="scripts/jquery.js"></script>
