@@ -31,7 +31,7 @@ $(function() {
 				required: "Please provide your zip code"
 			},
 			password: {
-				required: "Create a strong password."
+				required: "A strong password will be nice"
 			},
 			confirm_password: {
 				equalTo: "Please provide same password"
