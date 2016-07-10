@@ -38,7 +38,15 @@ $(function() {
 			}
 		},
 		submitHandler: function() {
-			alert("Welcome to join us!");
+			console.log("Welcome to join us!");
 		}
 	});
+
+	$("input[type='submit']")
+		.mousedown(function() {
+			$("input[type='submit']").css("background", "#fff");
+		})
+		.mouseup(function() {
+			$("input[type='submit']").css("background", "#eee");
+		});
 });
