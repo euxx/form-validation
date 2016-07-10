@@ -1,9 +1,5 @@
 
 $(function() {
-	$("form").on("submit", function() {
-		alert("Welcome to join us!");
-		event.preventDefault();
-	});
 
 	$("form").validate({
 		rules: {
@@ -40,7 +36,9 @@ $(function() {
 			confirm_password: {
 				equalTo: "Please provide same password"
 			}
-
+		},
+		submitHandler: function() {
+			alert("Welcome to join us!");
 		}
 	});
 });
