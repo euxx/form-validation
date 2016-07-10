@@ -38,7 +38,7 @@ $(function() {
 			}
 		},
 		submitHandler: function() {
-			console.log("Welcome to join us!");
+			alert("Welcome to join us!");
 		}
 	});
 

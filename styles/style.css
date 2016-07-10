@@ -77,4 +77,12 @@ input[type="submit"] {
     background: #eee;
 }
 
-
+label.error {
+    font-size: 0.9rem;
+    color: red;
+    opacity: 0.6;
+}
+input.error {
+    border-color: red;
+    opacity: 0.6;
+}
