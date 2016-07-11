@@ -27,6 +27,9 @@ $(function() {
 			confirm_email: {
 				equalTo: "Please provide same email"
 			},
+			country: {
+				required: "Please provide your country"
+			},
 			zip_code: {
 				required: "Please provide your zip code"
 			},
